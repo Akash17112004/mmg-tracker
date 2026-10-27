@@ -1,0 +1,24 @@
+# Java / Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# Frontend
+mmg-frontend/node_modules/
+mmg-frontend/dist/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local uploads and runtime data (never commit real documents)
+uploads/*
+!uploads/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
